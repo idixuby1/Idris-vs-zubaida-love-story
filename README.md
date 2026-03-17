@@ -1,133 +1,80 @@
-lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idris ❤️ Zubaida</title>
+import time
 
-    <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to right, #1e1e2f, #2c2c54);
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
+def show_text(text, delay=0.04):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print("\n")
 
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: rgba(0,0,0,0.6);
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(255,255,255,0.1);
-            animation: fadeIn 2s ease-in-out;
-        }
+def wait():
+    input("👉 Press Enter to continue...\n")
 
-        h1 {
-            text-align: center;
-            color: #ff4d6d;
-        }
+# TITLE
+show_text("❤️ IDRIS ❤️ ZUBAIDA ❤️\n", 0.08)
+wait()
 
-        p {
-            line-height: 1.8;
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
+# STORY PART 1
+show_text("Idris first noticed Zubaida on a quiet Monday morning in school.")
+show_text("The sun was just rising, casting a soft golden light across the field.")
+show_text("Students were slowly gathering in groups.")
+show_text("But something about her made him pause...")
+wait()
 
-        .continue {
-            text-align: center;
-            margin-top: 30px;
-            font-style: italic;
-            color: #ffb3c1;
-        }
+# PART 2
+show_text("Days passed... then weeks.")
+show_text("Idris kept seeing her but never spoke.")
+show_text("Deep inside, something was growing.")
+show_text("Not just a crush... something deeper.")
+wait()
 
-        .btn {
-            display: block;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background: #ff4d6d;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+# PART 3
+show_text("One afternoon, everything changed.")
+show_text("They were assigned to the same group.")
+show_text("Idris was nervous... but excited.")
+show_text("Zubaida smiled warmly at him.")
+show_text("That moment gave him courage.")
+wait()
 
-        .btn:hover {
-            background: #ff1e4d;
-        }
+# PART 4
+show_text("They began talking more—about school, dreams, and life.")
+show_text("Idris saw she was kind, intelligent, and full of ambition.")
+show_text("Zubaida saw something special in Idris too.")
+show_text("Their friendship grew stronger every day.")
+wait()
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
-</head>
+# PART 5
+show_text("But Idris was hiding something...")
+show_text("His feelings were growing stronger.")
+wait()
 
-<body>
+# CONFESSION
+show_text("One evening, Idris finally spoke...")
+show_text('"Zubaida... I think I’ve fallen in love with you."')
+wait()
 
-<div class="container">
-    <h1>Idris ❤️ Zubaida</h1>
+show_text("Silence filled the air...")
+show_text('Then she smiled softly...')
+show_text('"Idris... I feel the same way."')
+wait()
 
-    <!-- PART 1 -->
-    <p>
-        Idris first noticed Zubaida on a quiet Monday morning in school. The sun was just rising,
-        casting a soft golden light across the dusty field, and students were slowly gathering in groups.
-        He wasn’t the type to stare at people, but something about her made him pause.
-        Maybe it was the way she smiled while talking to her friends,
-        or how calm and confident she looked without even trying.
-    </p>
+# LOVE GROWS
+show_text("From that moment, everything changed.")
+show_text("They supported each other in everything.")
+show_text("Their love grew stronger every day.")
+wait()
 
-    <p>
-        At first, he didn’t say anything. Days passed, then weeks.
-        Idris would see her in class, in the corridor, sometimes during break,
-        but he always kept his distance. Deep inside, though, something was growing.
-        It wasn’t just a simple crush—it felt deeper, like he already knew her,
-        like she was someone important to his future.
-    </p>
+# PROPOSAL
+show_text("Years later, under a sky full of stars...")
+show_text('"I don’t just want you now... I want you forever."')
+show_text('"Will you marry me?"')
+wait()
 
-    <p>One afternoon, everything changed.</p>
+show_text('"Yes, Idris... I will." ❤️')
+wait()
 
-    <p>
-        They were both assigned to the same group for a class project.
-        Idris felt nervous, but also excited. This was his chance.
-        When he finally spoke to her, his voice wasn’t as strong as he had imagined,
-        but Zubaida smiled warmly and replied with kindness.
-        That moment gave him courage.
-    </p>
+# ENDING
+show_text("Their wedding was filled with joy and happiness.")
+show_text("They became not just lovers, but life partners.")
+show_text("And their love story became forever... ♾️")
 
-    <!-- PART 2 (YOUR VERSION) -->
-    <p>
-        As they worked together, they began to talk more—about school, about their dreams, about life.
-        Idris discovered that Zubaida was not only beautiful but also intelligent, kind-hearted, and full of ambition.
-        She loved helping others and always tried to see the good in people.
-        Zubaida, on the other hand, saw something special in Idris too.
-        She noticed how respectful he was, how he listened carefully,
-        and how he always tried to improve himself.
-    </p>
-
-    <p>
-        Their friendship grew quickly. They started sitting closer in class,
-        sharing jokes, and helping each other with difficult subjects.
-        Sometimes, they would just talk about random things and laugh until they forgot about everything else.
-        Those moments became the best part of Idris’s day.
-    </p>
-
-    <p>
-        But Idris was hiding something—his feelings were getting stronger every day.
-    </p>
-
-    <div class="continue">
-        To be continued...
-    </div>
-
-    <button class="btn" onclick="nextPart()">Continue Story ❤️</button>
-</div>
-
-<script>
-function nextPart() {
-    alert("Next part: The Confession ❤️");
-}
-</script>
-
-</body>
-</html>
+print("\n❤️ THE END ❤️")
