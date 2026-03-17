@@ -1,5 +1,4 @@
-
-<lang="en">
+lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,41 +95,37 @@
         That moment gave him courage.
     </p>
 
-    <!-- PART 2 -->
+    <!-- PART 2 (YOUR VERSION) -->
     <p>
-        As they worked together, they began to talk more—about school, about their dreams, and about life.
-        Idris discovered that Zubaida was not only beautiful but also intelligent and kind-hearted.
-        She had a way of making people feel comfortable, and she always tried to help others.
-    </p>
-
-    <p>
-        Zubaida also began to notice Idris in a different way. She saw how respectful he was,
-        how he listened carefully, and how he always tried to improve himself.
-        There was something genuine about him that made her feel safe and happy.
+        As they worked together, they began to talk more—about school, about their dreams, about life.
+        Idris discovered that Zubaida was not only beautiful but also intelligent, kind-hearted, and full of ambition.
+        She loved helping others and always tried to see the good in people.
+        Zubaida, on the other hand, saw something special in Idris too.
+        She noticed how respectful he was, how he listened carefully,
+        and how he always tried to improve himself.
     </p>
 
     <p>
         Their friendship grew quickly. They started sitting closer in class,
-        sharing jokes, and helping each other understand difficult topics.
-        Sometimes, they would laugh over the smallest things,
-        and those moments became the best part of their day.
+        sharing jokes, and helping each other with difficult subjects.
+        Sometimes, they would just talk about random things and laugh until they forgot about everything else.
+        Those moments became the best part of Idris’s day.
     </p>
 
     <p>
-        Without realizing it, Idris had found someone who made his world brighter.
-        And deep in his heart, he knew this was just the beginning of something special.
+        But Idris was hiding something—his feelings were getting stronger every day.
     </p>
 
     <div class="continue">
         To be continued...
     </div>
 
-    <button class="btn" onclick="nextPart()">Next Part Coming Soon</button>
+    <button class="btn" onclick="nextPart()">Continue Story ❤️</button>
 </div>
 
 <script>
 function nextPart() {
-    alert("More love story coming soon ❤️");
+    alert("Next part: The Confession ❤️");
 }
 </script>
 
