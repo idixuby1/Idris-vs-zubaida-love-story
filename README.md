@@ -78,3 +78,68 @@ show_text("They became not just lovers, but life partners.")
 show_text("And their love story became forever... ♾️")
 
 print("\n❤️ THE END ❤️")
+import tkinter as tk
+
+# STORY PARTS
+story = [
+"❤️ IDRIS ❤️ ZUBAIDA ❤️",
+
+"Idris first noticed Zubaida on a quiet Monday morning in school.\nThe sun was rising gently across the field...",
+
+"Days passed... weeks passed...\nBut something inside him kept growing.",
+
+"They were assigned to the same group.\nThat moment changed everything.",
+
+"They talked more—about dreams, life, and school.\nTheir friendship became stronger.",
+
+"But Idris was hiding something...\nHis feelings were growing.",
+
+"One evening...\n'I think I’ve fallen in love with you,' Idris said.",
+
+"Zubaida smiled softly...\n'I feel the same way.' ❤️",
+
+"Their love grew stronger through time.\nThey supported each other always.",
+
+"Years later under the stars...\n'Will you marry me?'",
+
+"'Yes, Idris... I will.' 💍",
+
+"Marriage came with challenges...\nBut their love never changed.",
+
+"They became each other's peace.\nEach other's strength.",
+
+"'Do you remember when we met?' Idris asked.",
+
+"'You were my answered prayer,' Zubaida replied.",
+
+"Their love story was not just a beginning...\nIt was forever. ♾️❤️"
+]
+
+# APP
+index = 0
+
+def next_part():
+    global index
+    if index < len(story) - 1:
+        index += 1
+        text_label.config(text=story[index])
+    else:
+        text_label.config(text="❤️ THE END ❤️")
+
+# WINDOW
+root = tk.Tk()
+root.title("Idris ❤️ Zubaida Love Story")
+root.geometry("400x400")
+root.configure(bg="#1e1e2f")
+
+# TEXT
+text_label = tk.Label(
+    root,
+    text=story[0],
+    wraplength=350,
+    font=("Segoe UI", 12),
+    fg="white",
+    bg="#1e1e2f",
+    justify="center"
+)
+text_label.pack(expand=True
