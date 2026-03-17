@@ -1,6 +1,5 @@
-# Idris-vs-zubaida-love-story
 
-<html lang="en">
+<lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +21,7 @@
             background: rgba(0,0,0,0.6);
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(255,255,255,0.1);
+            animation: fadeIn 2s ease-in-out;
         }
 
         h1 {
@@ -32,6 +32,7 @@
         p {
             line-height: 1.8;
             font-size: 16px;
+            margin-bottom: 15px;
         }
 
         .continue {
@@ -55,6 +56,11 @@
         .btn:hover {
             background: #ff1e4d;
         }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 
@@ -63,6 +69,7 @@
 <div class="container">
     <h1>Idris ❤️ Zubaida</h1>
 
+    <!-- PART 1 -->
     <p>
         Idris first noticed Zubaida on a quiet Monday morning in school. The sun was just rising,
         casting a soft golden light across the dusty field, and students were slowly gathering in groups.
@@ -79,9 +86,7 @@
         like she was someone important to his future.
     </p>
 
-    <p>
-        One afternoon, everything changed.
-    </p>
+    <p>One afternoon, everything changed.</p>
 
     <p>
         They were both assigned to the same group for a class project.
@@ -91,16 +96,41 @@
         That moment gave him courage.
     </p>
 
+    <!-- PART 2 -->
+    <p>
+        As they worked together, they began to talk more—about school, about their dreams, and about life.
+        Idris discovered that Zubaida was not only beautiful but also intelligent and kind-hearted.
+        She had a way of making people feel comfortable, and she always tried to help others.
+    </p>
+
+    <p>
+        Zubaida also began to notice Idris in a different way. She saw how respectful he was,
+        how he listened carefully, and how he always tried to improve himself.
+        There was something genuine about him that made her feel safe and happy.
+    </p>
+
+    <p>
+        Their friendship grew quickly. They started sitting closer in class,
+        sharing jokes, and helping each other understand difficult topics.
+        Sometimes, they would laugh over the smallest things,
+        and those moments became the best part of their day.
+    </p>
+
+    <p>
+        Without realizing it, Idris had found someone who made his world brighter.
+        And deep in his heart, he knew this was just the beginning of something special.
+    </p>
+
     <div class="continue">
         To be continued...
     </div>
 
-    <button class="btn" onclick="addMore()">Add Next Part</button>
+    <button class="btn" onclick="nextPart()">Next Part Coming Soon</button>
 </div>
 
 <script>
-function addMore() {
-    alert("You can now add the next part of your story in the code!");
+function nextPart() {
+    alert("More love story coming soon ❤️");
 }
 </script>
 
